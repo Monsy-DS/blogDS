@@ -1,0 +1,104 @@
+*{
+	background-color: #666;
+	color:white;
+	align-items: center;
+	font-family: Arial Narrow, Arial; 
+	font-style: normal; 
+	font-variant: normal; 
+	left: 25%;
+}
+p{
+	width: 100%;
+	text-align: left;
+}
+h3{
+	width: 100%;
+}
+#index_all_div{
+	width: 50%;
+	align-items: center;
+	position: relative;
+	left: 25%;
+}
+h1{
+	font-weight: 900;
+	font-size: 30px;
+}
+#mail{
+	background-color: red;
+	font-weight: 900;
+	color: black;
+}
+h2{
+	font-weight: 600;
+	font-size: 20px;
+}
+h3{
+	font-weight: 600;
+	font-size: 60px;	
+}
+.NLP_all_div{
+	width: 50%;
+	align-items: center;
+	position: relative;
+	left: 25%;
+}
+#NLP_textarea{
+	width: 100%;
+	height: 100px;
+	background: #eee;
+	color:grey;
+	text-align: center;
+}
+#NLP_button{
+	background: black;
+	position: relative;
+	width: 50%;
+	height: 50px;
+	left: 25%;
+	font-size: 150%;
+}
+br{
+	display: block;
+	margin: 3px 0;
+}
+.NLP_result_div{
+	width: 50%;
+	align-items: center;
+	position: relative;
+	left: 25%;
+}
+.usprez_all_div{
+	width: 50%;
+	align-items: center;
+	position: relative;
+	left: 25%;
+}
+.speech_word{
+	background: white;
+	color:black;
+	width: 200px;
+}
+.usprez_all_div_result{
+	width: 50%;
+	align-items: center;
+	position: relative;
+	left: 25%;	
+}
+#result_trump_text{
+	color:black;
+	font-weight: 700;
+	background: #555;
+}
+a{
+	margin-left: 1%;
+}
+.basket_all_div{
+	width: 50%;
+	align-items: center;
+	position: relative;
+	left: 25%;
+}
+img{
+	background: #666;
+}
