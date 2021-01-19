@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DataScience, RNN, ANN, CNN, Machine Learning, Artificial neural networks, convolution neural network, recurent neural network</title>
+	<meta name="description" content="ANN, CNN, RNN, DataScience, Machine Learning, everything you need from a DataScience">
+	<link rel="shortcut icon" href="/static/favicon.ico" type="">
+	<link rel="stylesheet" href="/static/stylesheet.css">
+</head>
+<body>
+<nav class="navbar">
+	<div class="navbar-nav">
+    <a class="nav" href="{{url_for('core.index')}}">home</a>
+		<div class="dropdown">
+  			<button class="dropbtn">Projects</button>
+  				<div class="dropdown-content">
+    				<a href="{{url_for('core.basket')}}">Recomendet system</a>
+				    <a href="{{url_for('core.NLP')}}">Natural language processing</a>
+				    <a href="{{url_for('core.usprezident')}}">RNN - text assembly</a>
+            <a href="{{url_for('core.akcie')}}">RNN - Stock trading</a>
+				</div>
+		</div>
+    <a class="nav2" href="{{url_for('core.aboutme')}}">About me</a>
+	</div>	
+</nav>
+		{% block content %}
+
+		{% endblock %}
+
+		<img src="\static\logo2.png" alt="monsy logo" style="position: fixed; left: 0;bottom: 0; width: 100px;">
+
+
+<!--style non functional in stylesheet and dont know why-->
+
+<style type="text/css">
+button{
+  background: #555;
+  width: 95%;
+  text-decoration: underline;
+}
+.nav2{
+  position: relative;
+  left: 5%;
+}
+.dropbtn {
+  /*background-color: #4CAF50;*/
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: fixed;
+  left: 4.5%;
+  top: -1%;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color: #f9f9f9;*/
+  color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	color:black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #888/*#3e8e41;*/
+}
+img{
+	background: #666;
+}
+</style>
+</body>
+</html>
