@@ -1,7 +1,7 @@
 # blogDS
 flask blog of my ML code
 
-Datasets which I used to train my code can be found here:
+Datasets which I used to train my models on can be found here:
 
 basket 	- 	https://www.kaggle.com/heeraldedhia/groceries-dataset
 
