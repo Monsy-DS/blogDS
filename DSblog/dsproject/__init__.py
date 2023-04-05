@@ -2,7 +2,7 @@ from flask import Flask
 import os
 
 app = Flask(__name__)
-app.config['SECRET_KEY']='totally_secret_password_number_dve'
+app.config['SECRET_KEY']='SECRET'
 app.static_folder = 'static'
 #####################################
 ###### Blueprints registration ######
